@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html,body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* bagian header */
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    padding:12px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* bagian utama */
+main div {
+    display: flex;
+    justify-content: center;
+}
+
