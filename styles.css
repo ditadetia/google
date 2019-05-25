@@ -35,3 +35,17 @@ main div {
     justify-content: center;
 }
 
+/* input */
+input#searchinput {
+    width: 600px;
+    margin: 24px;
+    height: 44px;
+    border-radius: 44px;
+    border:1px solid #ddd;
+    padding: 0 24px;
+}
+
+#searchinput:focus,
+#searchinput:hover {
+    box-shadow: #ddd 0 2px;
+}
